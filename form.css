@@ -1,0 +1,189 @@
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#isiHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+#logoHome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+#isiHeader a{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#logoHome img{
+    width: 100px;
+}
+
+#register{
+    display: flex;
+    width: 200px;
+    margin-right: -50px;
+}
+
+/* FORM */
+
+#content{
+    width: 1200px;
+    height: 450px;
+    margin-top: 200px;
+    margin-left: 150px;
+    background-color: lightcoral;
+    border-radius: 15px;
+}
+
+#container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+    padding: 16px;
+}
+
+#container a{
+    color: blue;
+}
+
+#formInfo{
+    padding: 8px;
+    text-align: center;
+    font-size: x-large;
+}
+
+table.register{
+    table-layout: auto;
+    width: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: antiquewhite;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input:focus{
+    background-color: lightgray;
+}
+
+#submitReset{
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type=submit], input[type=reset]{
+    width: 100px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+    background-color: lightgreen;
+    color: white;
+}
+
+/* End of FORM */
+
+#footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+#wadahFooter{
+    margin-top: 50px;
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    padding-top: 16px;
+}
+
+#sosmed{
+    display: flex;
+    justify-content: center;
+}
+
+#sosmed a{
+    border-radius: 9px;
+    padding: 3px;
+}
+
+#copyright{
+    padding-bottom: 8px;
+}
+
+.tea{
+    position: relative;
+}
+
+.overlay p{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 3ms ease-in-out;
+    background-color: black;
+}
+  
+.overlay:hover {
+    opacity: 0.7;
+}
+
+#isiHeader a:hover{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#sosmed a:hover{
+    background-color: black;
+}
+

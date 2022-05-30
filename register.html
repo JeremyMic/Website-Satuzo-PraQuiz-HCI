@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satuzo</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="assets/logo.png" type="image/icon type">
+</head>
+<body>
+    <div id="header">
+        <div id="isiHeader">
+            <div id="logoHome">
+                <img src="assets/logo.png" alt="">
+                <a href="index.html">
+                    <p>Home</p>
+                </a>
+            </div>
+            <div id="register">
+                <a href="register.html">
+                    <p>Register</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div id="formInfo">
+            <p>Please fill in the requirements below to register</p>
+        </div>
+        <div id="container">
+            <form action="">
+                <table class="register">
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>:</td>
+                        <td><input type="email" id="email" placeholder="Enter Email"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pass">Password</label>
+                        </td>
+                        <td>:</td>
+                        <td><input type="password" id="pass" placeholder="Enter Password"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="member">Member Type</label>
+                        </td>
+                        <td>:</td>
+                        <td>
+                            <select id="member">
+                                <option value="">Choose One</option>
+                                <option value="">Member</option>
+                                <option value="">Not a Member</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="address">Address</label>
+                        </td>
+                        <td>:</td>
+                        <td><input type="text" placeholder="Enter Address"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><a href="google.com">Terms of Service</a> agreement</p>
+                        </td>
+                        <td><input type="checkbox" name="" id="tos"></td>
+                        <td>
+                            <label for="tos">I Agree</label>
+                        </td>
+                    </tr>
+                </table>
+                <div id="submitReset">
+                    <input type="reset" id="Reset">
+                    <input type="submit" id="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="wadahFooter">
+            <div id="sosmed">
+                <a href="">
+                    <img src="assets/instagram.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="assets/facebook.webp" alt="">
+                </a>
+            </div>
+            <div id="copyright">
+                <p>Copyright by Michael, 2020</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

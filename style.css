@@ -1,0 +1,204 @@
+a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#isiHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+}
+
+#logoHome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+#isiHeader a{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#logoHome img{
+    width: 100px;
+}
+
+#register{
+    display: flex;
+    width: 200px;
+    margin-right: -50px;
+}
+
+#content{
+    margin: 0;
+    width: 100%;
+}
+
+#banner{
+    margin-top: 145px;
+}
+
+#bannerBg img{
+    position: relative;
+    width: 100%;
+}
+
+#bannerLogo{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+#bannerDesc{
+    position: absolute;
+    top: 80%;
+    left: 36%;
+}
+
+#bannerDesc p{
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#firstContent{
+    position: absolute;
+    margin-top: -300px;
+    background-color: black;
+    width: 100%;
+}
+
+#cardTitle{
+    color: white;
+    text-align: center;
+}
+
+#wadahCard{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.cardLogo img{
+    width: 200px;
+}
+
+.cardDesc{
+    text-align: center;
+}
+
+.cardTitle{
+    color: white;
+}
+
+.cardDesc p{
+    color: white;
+}
+
+#secondContent{
+    margin-top: 90px;
+    position: relative;
+    padding-top: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+#wadah2{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
+
+#wadahFooter{
+    margin-top: 50px;
+    background-color: antiquewhite;
+    width: 100%;
+    text-align: center;
+    padding-top: 16px;
+}
+
+#sosmed{
+    display: flex;
+    justify-content: center;
+}
+
+#sosmed a{
+    border-radius: 9px;
+    padding: 3px;
+}
+
+#copyright{
+    padding-bottom: 8px;
+}
+
+.tea{
+    position: relative;
+}
+
+.overlay p{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 3ms ease-in-out;
+    background-color: black;
+}
+  
+.overlay:hover {
+    opacity: 0.7;
+}
+
+#isiHeader a:hover{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#sosmed a:hover{
+    background-color: black;
+}
+
